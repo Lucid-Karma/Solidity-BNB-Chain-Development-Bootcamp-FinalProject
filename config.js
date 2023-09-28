@@ -1,0 +1,1 @@
+export const safeContractAddress = 0x572C732a4C546d59Df83F59c5072a9E93aB3bB7f
