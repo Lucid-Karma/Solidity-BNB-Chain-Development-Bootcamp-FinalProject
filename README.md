@@ -2,14 +2,13 @@
 
 Welcome to the Web3 Auction DApp project repository! This decentralized application (DApp) leverages blockchain technology to implement a Safe Smart Contract on the BNB Chain. This contract acts as a secure vault for users to lock their tokens for a specified period, earning rewards over time.
 
-- [Table of Contents](#table-of-contents)
+## Table of Contents
   - [Overview](#overview)
   - [Features](#features)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-    - [New Directory Structure for Artifacts](#new-directory-structure-for-artifacts)
-  - [BNB Smart Chain](#bnb-smart-chain)
+  - [Testing](#testing)
     - [Compiling](#compiling)
     - [Migrating](#migrating)
     - [Paying for Migrations](#paying-for-migrations)
@@ -45,7 +44,7 @@ truffle unbox bnb-chain/BSC-Truffle-Starter-Box
 
 ## Getting Started
 
-### Using the env File
+### Prerequisites
 
 You will need at least one mnemonic to use with the network. The `.dotenv` npm package has been installed for you, and you will need to create a `.env` file for storing your mnemonic and any other needed private information.
 
@@ -63,17 +62,18 @@ MNEMONIC="<Your Mnemonic>"
 
 4. As you develop your project, you can put any other sensitive information in this file. You can access it from other files with `require('dotenv').config()` and refer to the variable you need with `process.env['<YOUR_VARIABLE>']`.
 
-### New Configuration File
+### Installation
 
 A new configuration file exists in this project: `truffle-config.bsc.js`. This file contains a reference to the new file location of the `contracts_build_directory` for BNB Smart Chain contracts and lists several networks that are running the BNB Smart Chain network instance (see [below](#migrating)).
 
 Please note, the classic `truffle-config.js` configuration file is included here as well, because you will eventually want to deploy contracts to on localhost for local development. All normal truffle commands (`truffle compile`, `truffle migrate`, etc.) will use this config file and save built files to `build/local-contracts`. You can save Solidity contracts that you wish to deploy to Ethereum in the `contracts/local-dev` folder.
 
-### New Directory Structure for Artifacts
+## Testing
 
-When you compile or migrate, the resulting `json` files will be at `build/bsc-contracts/`. This is to distinguish them from contracts you build for any other network other than BSC. As we have included the appropriate `contracts_build_directory` in each configuration file, Truffle will know which set of built files to reference!
+Smart contract tests are located in the `test` folder. These tests ensure the correct functioning of the smart contract. To run the tests, follow these steps:
 
-## BNB Smart Chain
+1.Open a terminal in the project directory.
+2.Run the following command to execute the tests:
 
 ### Compiling
 
