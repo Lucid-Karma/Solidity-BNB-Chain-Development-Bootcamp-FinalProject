@@ -1,11 +1,13 @@
 # Solidity-BNB-Chain-Development-Bootcamp-FinalProject
 
-- [BNB Smart Chain Truffle Box](#bnb-smart-chain-truffle-box)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Setup](#setup)
-    - [Using the env File](#using-the-env-file)
-    - [New Configuration File](#new-configuration-file)
+Welcome to the Web3 Auction DApp project repository! This decentralized application (DApp) leverages blockchain technology to implement a Safe Smart Contract on the BNB Chain. This contract acts as a secure vault for users to lock their tokens for a specified period, earning rewards over time.
+
+- [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
     - [New Directory Structure for Artifacts](#new-directory-structure-for-artifacts)
   - [BNB Smart Chain](#bnb-smart-chain)
     - [Compiling](#compiling)
@@ -23,7 +25,7 @@ As a starting point, this box contains only the ```SimpleStorage``` Solidity con
 
 The BNB Smart Chain is fully compatible with the EVM. This means you will not need a new compiler to deploy Solidity contracts, and should be able to add your own Solidity contracts to this project. The main difference developers will encounter is in accessing and interacting with the BNB Smart Chain network.
 
-## Requirements
+## Overview
 
 The BSC box has the following requirements:
 
@@ -35,13 +37,13 @@ Helpful, but optional:
 
 - A [MetaMask](https://metamask.io/) account
 
-## Installation
+## Features
 
 ```bash
 truffle unbox bnb-chain/BSC-Truffle-Starter-Box
 ```
 
-## Setup
+## Getting Started
 
 ### Using the env File
 
