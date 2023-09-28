@@ -1,6 +1,6 @@
 # Solidity-BNB-Chain-Development-Bootcamp-FinalProject
 
-Welcome to the Web3 Auction DApp project repository! This decentralized application (DApp) leverages blockchain technology to implement a Safe Smart Contract on the BNB Chain. This contract acts as a secure vault for users to lock their tokens for a specified period, earning rewards over time.
+Welcome to the Web3 Safe Lock DApp project repository! This decentralized application (DApp) leverages blockchain technology to implement a Safe Smart Contract on the BNB Chain. This contract acts as a secure vault for users to lock their tokens for a specified period, earning rewards over time.
 
 ## Table of Contents
   - [Overview](#overview)
@@ -74,6 +74,9 @@ Smart contract tests are located in the `test` folder. These tests ensure the co
 
 1.Open a terminal in the project directory.
 2.Run the following command to execute the tests:
+```
+npm run test
+```
 
 ### Compiling
 
