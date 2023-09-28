@@ -1,4 +1,4 @@
-# BNB Smart Chain Truffle Box
+# Solidity-BNB-Chain-Development-Bootcamp-FinalProject
 
 - [BNB Smart Chain Truffle Box](#bnb-smart-chain-truffle-box)
   - [Requirements](#requirements)
