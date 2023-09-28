@@ -69,9 +69,17 @@ npm install
 Smart contract tests are located in the `test` folder. These tests ensure the correct functioning of the smart contract. To run the tests, follow these steps:
 
 1.Open a terminal in the project directory.
-2.Run the following command to execute the tests:
+2.Run blockchain simulation with ganache:
+```
+ganache-cli
+```
+3.Run the following command to execute the tests:
 ```
 npm run test
+```
+4.Run the following command to execute the tests on the BSC Testnet:
+```
+npm run test:bsc bscTestnet    //?????
 ```
 
 ### Compiling
