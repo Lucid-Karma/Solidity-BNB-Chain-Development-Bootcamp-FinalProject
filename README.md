@@ -11,14 +11,7 @@ Welcome to the Web3 Safe Lock DApp project repository! This decentralized applic
   - [Testing](#testing)
   - [Contributing](#contributing)
   - [License](#license)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-This Truffle BNB Smart Chain box provides you with the boilerplate structure necessary to start coding on the BNB Smart Chain. For detailed information on how the BNB Smart Chain works, please see their documentation [here](https://docs.bnbchain.org/docs/getting-started).
-
-As a starting point, this box contains only the ```SimpleStorage``` Solidity contract. Including minimal code was a conscious decision as this box is meant to provide the initial building blocks needed to get to work on BNB Smart Chain without pushing developers to write any particular sort of application. With this box, you will be able to compile, migrate, and test Solidity code against several instances of BNB Smart Chain networks.
-
-The BNB Smart Chain is fully compatible with the EVM. This means you will not need a new compiler to deploy Solidity contracts, and should be able to add your own Solidity contracts to this project. The main difference developers will encounter is in accessing and interacting with the BNB Smart Chain network.
+  - [Thanks](#thanks)
 
 ## Overview
 
@@ -27,7 +20,9 @@ Each user have a separate compartment within the contract, ensuring individualiz
 ## Features
 
 -Token Locking: Users can send tokens to the contract and lock them for a defined period.
+
 -Reward Calculation: The contract will calculate rewards based on the time the tokens are locked.
+
 -Individual Compartments: Each user will have a unique compartment within the contract, ensuring personalized security and reward management.
 
 ## Getting Started
@@ -120,6 +115,6 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 
 
 
-## Support
+## Thanks
 
-Support for this box is available via the Truffle community [here](https://www.trufflesuite.com/community) or on our official [Discord Channel](https://discord.com/channels/789402563035660308/912296662834241597).
+Thank you for your interest in the Web3 Auction DApp project! For questions or suggestions, reach out to us or open an issue on [GitHub](). Happy bidding on the blockchain! 🚀
