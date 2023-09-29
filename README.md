@@ -1,6 +1,6 @@
 # Solidity-BNB-Chain-Development-Bootcamp-FinalProject
 
-Welcome to the Web3 Safe Lock DApp project repository! This decentralized application (DApp) leverages blockchain technology to implement a Safe Smart Contract on the BNB Chain. This contract acts as a secure vault for users to lock their tokens for a specified period, earning rewards over time.
+Welcome to the Web3 Safe Lock DApp project repository! This project is the first part of the final project of the Solidity & BNB Chain Development Bootcamp. This decentralized application (DApp) leverages blockchain technology to implement a Safe Smart Contract on the BNB Chain. This contract acts as a secure vault for users to lock their tokens for a specified period, earning rewards over time.
 
 ## Table of Contents
   - [Overview](#overview)
@@ -19,11 +19,11 @@ Each user have a separate compartment within the contract, ensuring individualiz
 
 ## Features
 
--Token Locking: Users can send tokens to the contract and lock them for a defined period.
++**Token Locking:** Users can send tokens to the contract and lock them for a defined period.
 
--Reward Calculation: The contract will calculate rewards based on the time the tokens are locked.
++**Reward Calculation:** The contract will calculate rewards based on the time the tokens are locked.
 
--Individual Compartments: Each user will have a unique compartment within the contract, ensuring personalized security and reward management.
++**Individual Compartments:** Each user will have a unique compartment within the contract, ensuring personalized security and reward management.
 
 ## Getting Started
 
@@ -117,4 +117,4 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 
 ## Thanks
 
-Thank you for your interest in the Web3 Auction DApp project! For questions or suggestions, reach out to us or open an issue on [GitHub](). Happy bidding on the blockchain! 🚀
+Thank you for your interest in the Web3 Safe Lock DApp project! For questions or suggestions, reach out to us or open an issue on [GitHub](https://github.com/Lucid-Karma/Solidity-BNB-Chain-Development-Bootcamp-FinalProject/tree/master). Happy bidding on the blockchain! 🚀
