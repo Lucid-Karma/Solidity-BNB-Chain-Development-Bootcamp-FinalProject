@@ -83,6 +83,8 @@ npm run test
 npm run test:bsc bscTestnet   
 ```
 
+In order to run the test currently in the boilerplate, use the following command: `npm run test:bsc --network=(bscTestnet | bscMainnet)` (remember to choose a network!). The current test file just has some boilerplate tests to get you started. You will likely want to add network-specific tests to ensure your contracts are behaving as expected.
+
 ### Compiling
 
 You do not need to add any new compilers or settings to compile your contracts for the BNB Smart Chain, as it is fully EVM compatible. The `truffle-config.bsc.js` configuration file indicates the contract and build paths for BSC-destined contracts.
@@ -143,7 +145,7 @@ npm run test:bsc --network=(bscTestnet | bscMainnet)
 
 ### Testing
 
-In order to run the test currently in the boilerplate, use the following command: `npm run test:bsc --network=(bscTestnet | bscMainnet)` (remember to choose a network!). The current test file just has some boilerplate tests to get you started. You will likely want to add network-specific tests to ensure your contracts are behaving as expected.
+
 
 
 ## Support
