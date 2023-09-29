@@ -21,9 +21,9 @@ Each user have a separate compartment within the contract, ensuring individualiz
 
 **Token Locking:** Users can send tokens to the contract and lock them for a defined period.
 
-**Reward Calculation:** The contract will calculate rewards based on the time the tokens are locked.
+**Reward Calculation:** The contract calculates rewards based on the time the tokens are locked.
 
-**Individual Compartments:** Each user will have a unique compartment within the contract, ensuring personalized security and reward management.
+**Individual Compartments:** Each user have a unique compartment within the contract, ensuring personalized security and reward management.
 
 ## Getting Started
 
