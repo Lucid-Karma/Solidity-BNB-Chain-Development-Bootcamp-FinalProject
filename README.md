@@ -26,7 +26,7 @@ The BNB Smart Chain is fully compatible with the EVM. This means you will not ne
 
 ## Overview
 
-The BSC box has the following requirements:
+Each user have a separate compartment within the contract, ensuring individualized security and reward calculation. Thanks to the security checks, only the caller of function(owner of the tokens) can lock, unlock, or query their compartment.
 
 ## Features
 
@@ -51,17 +51,17 @@ Helpful, but optional:
 
 ### Installation
 
-1. Clone the repository:
+1. Install the "ganache" package:
+```
+npm i ganache
+```
+2. Clone the repository:
 ```
 git clone https://github.com/Lucid-Karma/Solidity-BNB-Chain-Development-Bootcamp-FinalProject.git
 ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 ```
 cd Solidity-BNB-Chain-Development-Bootcamp-FinalProject
-```
-3. Install required npm packages:
-```
-npm install
 ```
 
 ## Testing
@@ -80,7 +80,7 @@ npm run test
 ```
 4.Run the following command to execute the tests on the BSC Testnet:
 ```
-npm run test:bsc bscTestnet    //?????
+npm run test:bsc bscTestnet   
 ```
 
 ### Compiling
