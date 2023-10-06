@@ -8,7 +8,10 @@ Welcome to the Web3 Safe Lock DApp project repository! This project is the first
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+  - [Usage](#usage)
+  - [Smart Contracts](#smart-contracts)
   - [Testing](#testing)
+  - [Frontend](#frontend)
   - [Contributing](#contributing)
   - [License](#license)
   - [Thanks](#thanks)
@@ -54,6 +57,22 @@ git clone https://github.com/Lucid-Karma/Solidity-BNB-Chain-Development-Bootcamp
 ```
 cd Solidity-BNB-Chain-Development-Bootcamp-FinalProject
 ```
+4. Install required npm packages:
+```
+npm install
+```
+
+## Usage
+1. Start the development server:
+```
+npm start
+```
+2. Open your web browser and navigate to `http://localhost:3000`  to access the DApp.
+3. Connect your Ethereum wallet (e.g., MetaMask) to the DApp.
+4. Lock your token, check your calculated reward during the period, and unlock it at the end of the period.
+
+## Smart Contracts
+The smart contract called `SafeContract.sol` in this project facilitate the lockup process. It handles locking token, unlocking, and checking. This contract is deployed on the BNB Chain Testnet.
 
 ## Testing
 
@@ -75,6 +94,13 @@ npm run test:bsc bscTestnet
 ```
 
 In order to run the test currently in the boilerplate, use the following command: `npm run test:bsc --network=(bscTestnet | bscMainnet)` (remember to choose a network!). The current test file just has some boilerplate tests to get you started. You will likely want to add network-specific tests to ensure your contracts are behaving as expected.
+
+## Frontend
+The DApp frontend is built using modern web technologies including React.js. It provides an intuitive and interactive user interface for auction participation.
+
+**React.js:** Powers the DApp's user interface.
+**Web3.js:** The Ethereum JavaScript API for smart contract interaction.
+**MetaMask:** A popular Ethereum wallet browser extension for secure transactions.
 
 ## Contributing
 
