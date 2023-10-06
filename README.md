@@ -22,11 +22,11 @@ Each user have a separate compartment within the contract, ensuring individualiz
 
 ## Features
 
-**Token Locking:** Users can send tokens to the contract and lock them for a defined period.
+- **Token Locking:** Users can send tokens to the contract and lock them for a defined period.
 
-**Reward Calculation:** The contract calculates rewards based on the time the tokens are locked.
+- **Reward Calculation:** The contract calculates rewards based on the time the tokens are locked.
 
-**Individual Compartments:** Each user have a unique compartment within the contract, ensuring personalized security and reward management.
+- **Individual Compartments:** Each user have a unique compartment within the contract, ensuring personalized security and reward management.
 
 ## Getting Started
 
@@ -74,6 +74,7 @@ npm start
 ## Smart Contracts
 The smart contract called `SafeContract.sol` in this project facilitate the lockup process. It handles locking token, unlocking, and checking. This contract is deployed on the BNB Chain Testnet.
 
+
 ## Testing
 
 Smart contract tests are located in the `test` folder. These tests ensure the correct functioning of the smart contract. To run the tests, follow these steps:
@@ -95,12 +96,14 @@ npm run test:bsc bscTestnet
 
 In order to run the test currently in the boilerplate, use the following command: `npm run test:bsc --network=(bscTestnet | bscMainnet)` (remember to choose a network!). The current test file just has some boilerplate tests to get you started. You will likely want to add network-specific tests to ensure your contracts are behaving as expected.
 
+
 ## Frontend
 The DApp frontend is built using modern web technologies including React.js. It provides an intuitive and interactive user interface for auction participation.
 
-**React.js:** Powers the DApp's user interface.
-**Web3.js:** The Ethereum JavaScript API for smart contract interaction.
-**MetaMask:** A popular Ethereum wallet browser extension for secure transactions.
+- **React.js:** Powers the DApp's user interface.
+- **Web3.js:** The Ethereum JavaScript API for smart contract interaction.
+- **MetaMask:** A popular Ethereum wallet browser extension for secure transactions.
+
 
 ## Contributing
 
