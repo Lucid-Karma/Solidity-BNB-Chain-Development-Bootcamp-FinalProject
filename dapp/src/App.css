@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c428dc27;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.user-info h2 {
+  margin-bottom: 10px;
+}
+
+.action-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.action-section h2 {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+
